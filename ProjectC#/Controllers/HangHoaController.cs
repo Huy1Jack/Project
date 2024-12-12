@@ -2,9 +2,9 @@
 
 namespace ProjectC_.Controllers
 {
-    public class HangHoa : Controller
+    public class HangHoaController : Controller
     {
-        public IActionResult Index()
+        public IActionResult Index(int? loai)
         {
             return View();
         }
